@@ -1,0 +1,17 @@
+{
+    "name": "AntiWipe",
+    "version": "1.0.0",
+    "author": "KernelSU Community",
+    "description": "Protect against malicious wipe scripts",
+    "license": "GPL",
+    "kernel_version": {
+        "min": "5.4.0",
+        "max": "6.6.99"
+    },
+    "features": [
+        "block_dangerous_partition_write",
+        "intercept_dangerous_commands",
+        "protect_input_devices",
+        "user_confirmation_dialog"
+    ]
+}
